@@ -1,6 +1,6 @@
 
 import phonenumbers
-number="+14788657707"
+number="+250780772249"
 from phonenumbers import geocoder
 ch_number=phonenumbers.parse(number,"CH")#Country & history
 print(geocoder.description_for_number(ch_number,"en"))
