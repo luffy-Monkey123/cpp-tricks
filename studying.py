@@ -15,7 +15,6 @@ Distributed OS
 Network OS
 Real Time OS
 Embedded OS 
-
- """)
+""")
 
 salva.runAndWait()
