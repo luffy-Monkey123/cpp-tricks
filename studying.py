@@ -1,8 +1,8 @@
 import pyttsx3 as p
 from pyttsx3 import engine
 
-salva=p.init()
-voices=salva.getProperty("voices")
+salva=p.init()#initializing the voice engine
+voices=salva.getProperty("voices")#setting the engine properties
 salva.setProperty("voice",voices[1].id)
 salva.setProperty("rate",120)
 
@@ -15,6 +15,6 @@ Distributed OS
 Network OS
 Real Time OS
 Embedded OS 
-""")
+""") #Words to say
 
-salva.runAndWait()
+salva.runAndWait()#run until finished
